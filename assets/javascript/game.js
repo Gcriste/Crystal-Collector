@@ -22,8 +22,8 @@ crystal4 = Math.floor((Math.random()*12)+1)
 
 $(".target-score").text(targetScore)
 $(".your-score").text(yourScore)
-$(".wins").text("Wins: " + wins)
- $(".losses").text("Losses: " +losses)
+$(".wins").text(wins)
+$(".losses").text(losses)
 
 
 $("#crystal-1").on("click", function() {
@@ -90,7 +90,7 @@ var win = function(){
     alert("You won the game!!")
     reset();
     wins ++;
-    $(".wins").text("Wins: " + wins)
+    $(".wins").text(wins)
 }
 
 
@@ -98,7 +98,7 @@ var lose = function(){
     alert("I'm sorry you have too many crystals. You Lose!")
     reset();
     losses++;
-    $(".losses").text("Losses: " +losses)
+    $(".losses").text(losses)
 }
 
 

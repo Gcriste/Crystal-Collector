@@ -35,29 +35,39 @@
    
         <div class = "row">
             <div class ="col-md-3">
-                <h3>Target Score : </h3>
+                <h3>Target Score </h3>
                 <h3 class ="target-score"></h3>
                 <br>
                 <br>
-                <h3 class = "wins"> Wins: </h3>
+                <br>
+                <br>
+                <h3> Wins</h3>
+                <h3 class = "wins"> </h3>
             </div>
             <div class = "col-md-3">
                 <h3 >Your Score</h3>
                 <h3 class = "your-score"></h3>
                 <br>
                 <br>
-                <h3 class = "losses"> Losses: </h3>
+                <br>
+                <br>
+                <h3> Losses</h3>
+                <h3 class = "losses"></h3>
             </div>
 
-            <div class = "col-md-6">
+            <div class = "col-md-6" class = "crystalhover">
                 <h3 class = "crystal-selection"> Crystal Selection</h3>
-                <div class ="row">
-                    <img id = "crystal-1" src ="assets/crystal1.jpeg" alt = "pic of crystal 1">
-                    <img id = "crystal-2" src="assets/crystal2.jpeg" alt ="pic of crystal 2">
+                <div class ="row" class= "view overlay">
+                    <img id = "crystal-1" src ="assets/crystal1.jpeg"  class="img-fluid " alt = "pic of crystal 1">
+                    <div class="mask flex-center rgba-green-slight"></div>
+                    <img id = "crystal-2" src="assets/crystal2.jpeg"  class="img-fluid " alt ="pic of crystal 2">
+                    <div class="mask flex-center rgba-green-slight"></div>
                 </div>
-                <div class = "row">
-                    <img id = "crystal-3" src = "assets/crystal3.jpeg" alt="pic of crystal 3">
-                    <img id = "crystal-4" src = "assets/crystal4.jpeg" alt = "pic of crystal 4">
+                <div class = "row" class = "view overlay">
+                    <img id = "crystal-3" src = "assets/crystal3.jpeg"  class="img-fluid " alt="pic of crystal 3">
+                    <div class="mask flex-center rgba-green-slight"></div>
+                    <img id = "crystal-4" src = "assets/crystal4.jpeg"  class="img-fluid " alt = "pic of crystal 4">
+                    <div class="mask flex-center rgba-green-slight"></div>
                 </div>
             </div>
 
@@ -72,7 +82,12 @@
     </div>
 
 
-
+    <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center rgba-green-slight">
+                <p class="white-text">Super light overlay</p>
+            </div>
+        </div>
 
 
 
