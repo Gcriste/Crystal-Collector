@@ -5,9 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>Game of Thrones Fighter Game</title>
+        <title>Crystals Game</title>
         
-        <link rel= "stylesheet" href = "assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "assets/css/reset.css">
+        <link rel= "stylesheet" href ="assets/css/style.css">
+   
+        
         <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous">
@@ -20,14 +24,53 @@
 
 
 <body>
+    <h1> ~ Crystal Crystal on the Wall ~ </h1>
 
-    <div container>
+    <div class = "container">
+        <div class = "row">
+            <div class = "directions" class = "col-md-8">
+                <h2> Directions: Click on the crystals to try and match your score with the target score. Each crystal is worth a different value that will change after the game is reset.</h2> 
+            </div>
+        </div>
+   
+        <div class = "row">
+            <div class ="col-md-3">
+                <h3>Target Score : </h3>
+                <h3 class ="target-score"></h3>
+                <br>
+                <br>
+                <h3 class = "wins"> Wins: </h3>
+            </div>
+            <div class = "col-md-3">
+                <h3 >Your Score</h3>
+                <h3 class = "your-score"></h3>
+                <br>
+                <br>
+                <h3 class = "losses"> Losses: </h3>
+            </div>
 
-        
+            <div class = "col-md-6">
+                <h3 class = "crystal-selection"> Crystal Selection</h3>
+                <div class ="row">
+                    <img id = "crystal-1" src ="assets/crystal1.jpeg" alt = "pic of crystal 1">
+                    <img id = "crystal-2" src="assets/crystal2.jpeg" alt ="pic of crystal 2">
+                </div>
+                <div class = "row">
+                    <img id = "crystal-3" src = "assets/crystal3.jpeg" alt="pic of crystal 3">
+                    <img id = "crystal-4" src = "assets/crystal4.jpeg" alt = "pic of crystal 4">
+                </div>
+            </div>
 
 
 
+
+
+        </div>
+   
+   
+   
     </div>
+
 
 
 
