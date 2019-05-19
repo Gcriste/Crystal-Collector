@@ -91,7 +91,7 @@ var updateScore= function(){
 
 // function for if target number and your number are equal(Win)
 var win = function(){
-    alert("Congratulations! You matched the number of crystals! You win!!")
+    alert("Congratulations! You matched the number of crystals! You Win!!")
     reset();
     wins ++;
     $(".wins").text(wins)
