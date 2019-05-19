@@ -27,20 +27,25 @@ img{
     opacity: 0.5;
      transition: .5s ease;
     backface-visibility: hidden;
+    height:60%;
 }
     
 #crystal-1:hover{
         opacity: 1;
+        cursor: pointer;
 }
       
 #crystal-2:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 #crystal-3:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 #crystal-4:hover{
     opacity: 1;
+    cursor: pointer;
 }
