@@ -16,7 +16,7 @@ var losses = 0;
 
 
 // creates generated numbers for crystals and target number
-targetScore = Math.floor((Math.random()*100)+20)
+targetScore = Math.floor((Math.random()*100))+20
 crystal1 = Math.floor((Math.random()*12)+1)
 crystal2 = Math.floor((Math.random()*12)+1)
 crystal3 = Math.floor((Math.random()*12)+1)
@@ -110,7 +110,7 @@ var lose = function(){
 
 //resets the function by clearing scores and creating new crystal numbers and target number
 var reset = function(){
-    targetScore = Math.floor(Math.random()*120);
+    targetScore = Math.floor(Math.random()*120)+20;
     crystal1 = Math.floor((Math.random()*12)+1);
     crystal2 = Math.floor((Math.random()*12)+1);
     crystal3 = Math.floor((Math.random()*12)+1);
