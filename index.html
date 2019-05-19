@@ -27,12 +27,14 @@
     <h1> ~ Crystal Crystal on the Wall ~ </h1>
 
     <div class = "container">
+
+        <!--create row of box-->
         <div class = "row">
             <div class = "directions" class = "col-md-8">
                 <h2> Directions: Click on the crystals to try and match your score with the target score. Each crystal is worth a different value that will change after the game is reset.</h2> 
             </div>
         </div>
-   
+             <!-- target score and wins -->
         <div class = "row">
             <div class ="col-md-3">
                 <h3>Target Score </h3>
@@ -44,6 +46,8 @@
                 <h3> Wins</h3>
                 <h3 class = "wins"> </h3>
             </div>
+
+            <!-- your score and losses-->
             <div class = "col-md-3">
                 <h3 >Your Score</h3>
                 <h3 class = "your-score"></h3>
@@ -55,8 +59,10 @@
                 <h3 class = "losses"></h3>
             </div>
 
+            <!-- crystal section-->
             <div class = "col-md-6" class = "crystalhover">
                 <h3 class = "crystal-selection"> Crystal Selection</h3>
+                <div class = "crystalbox">
                 <div class ="row" class= "view overlay">
                     <img id = "crystal-1" src ="assets/images/crystal15.jpeg"  class="img-fluid " alt = "pic of crystal 1">
                     <div class="mask flex-center rgba-green-slight"></div>
@@ -68,6 +74,7 @@
                     <div class="mask flex-center rgba-green-slight"></div>
                     <img id = "crystal-4" src = "assets/images/crystal 14.jpeg"  class="img-fluid " alt = "pic of crystal 4">
                     <div class="mask flex-center rgba-green-slight"></div>
+                </div>
                 </div>
             </div>
 

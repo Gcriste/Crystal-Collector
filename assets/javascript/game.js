@@ -14,6 +14,8 @@ var wins = 0;
 var losses = 0;
 
 
+
+// creates generated numbers for crystals and target number
 targetScore = Math.floor((Math.random()*100)+20)
 crystal1 = Math.floor((Math.random()*12)+1)
 crystal2 = Math.floor((Math.random()*12)+1)
@@ -26,6 +28,8 @@ $(".wins").text(wins)
 $(".losses").text(losses)
 
 
+
+//goes through scenario for each crystal
 $("#crystal-1").on("click", function() {
     yourScore = yourScore + crystal1;
     updatedScore = yourScore
@@ -60,7 +64,7 @@ $("#crystal-4").on("click", function() {
 
 
 
-
+// function for updating score after crystal is clicked
 var updateScore= function(){
     $(".your-score").text(updatedScore)
     finalScore =  updatedScore;
@@ -85,7 +89,7 @@ var updateScore= function(){
     console.log(targetScore)
 }
 
-
+// function for if target number and your number are equal(Win)
 var win = function(){
     alert("You won the game!!")
     reset();
@@ -94,6 +98,7 @@ var win = function(){
 }
 
 
+//function for if your number goes over target score
 var lose = function(){
     alert("I'm sorry you have too many crystals. You Lose!")
     reset();
@@ -102,6 +107,8 @@ var lose = function(){
 }
 
 
+
+//resets the function by clearing scores and creating new crystal numbers and target number
 var reset = function(){
     targetScore = Math.floor(Math.random()*120);
     crystal1 = Math.floor((Math.random()*12)+1);
@@ -114,8 +121,6 @@ var reset = function(){
     updateScored = 0;
     $(".target-score").text(targetScore)
     $(".your-score").text(yourScore)
-
-
 }
 
 });
