@@ -11,5 +11,4 @@
 
 ### Technologies Used: Javascript, HTML, CSS
 
-### Creator
--I am the sole creator and owner. @GriffinCriste
+### Creator: I am the sole creator and owner. @GriffinCriste
